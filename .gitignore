@@ -1,0 +1,16 @@
+# Downloaded by download_assets.py (third-party models and policies, each with its own license)
+assets/
+
+# Created by demo_balance.py
+models/
+
+# Python environment and caches
+.venv/
+__pycache__/
+
+# MuJoCo writes these on errors or when saving from the viewer
+MUJOCO_LOG.TXT
+mjmodel.xml
+
+# Blog draft (published on Substack/Medium, not part of the repo)
+microduck-simulation-blog.md

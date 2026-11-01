@@ -1,0 +1,7 @@
+gymnasium[mujoco]
+stable-baselines3
+mujoco
+onnxruntime
+# BAM motor model the MicroDuck policies were trained with (needs Python 3.12).
+# Pinned to the commit microduck_rl's uv.lock uses; newer commits changed the API.
+better-actuator-models @ git+https://github.com/Rhoban/bam.git@62bd8ce12154340be97e06f7f41a0ca8f116d967
